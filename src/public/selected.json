@@ -34,61 +34,30 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 2267,
+        "id": 1330,
         "cod_pcia": "06",
         "nom_pcia": "Buenos Aires",
-        "cod_depto": "06686",
-        "nom_depto": "Rojas",
-        "cod_ase": "06686060",
-        "nombre": "Rojas",
+        "cod_depto": "06238",
+        "nom_depto": "Dolores",
+        "cod_ase": "06238010",
+        "nombre": "Dolores",
         "tipo": "Localidad simple",
-        "cod_aglo": "0151",
-        "nom_aglo": "Rojas",
-        "cod_agl": "060686",
-        "nom_agl": "Rojas",
-        "lat_gd": "-34.197742",
-        "long_gd": "-60.733701",
-        "lat_gs": "-34\u00ba11'52\"",
-        "long_gs": "-60\u00ba44' 1\"",
+        "cod_aglo": "0122",
+        "nom_aglo": "Dolores",
+        "cod_agl": "060238",
+        "nom_agl": "Dolores",
+        "lat_gd": "-36.315389",
+        "long_gd": "-57.675462",
+        "lat_gs": "-36\u00ba18'55\"",
+        "long_gs": "-57\u00ba40'32\"",
         "fuente": "INDEC"
       },
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
           [
-            -60.73370069504291,
-            -34.197742429076996
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 740,
-        "cod_pcia": "06",
-        "nom_pcia": "Buenos Aires",
-        "cod_depto": "06007",
-        "nom_depto": "Adolfo Alsina",
-        "cod_ase": "06007010",
-        "nombre": "Carhu\u00e9",
-        "tipo": "Localidad simple",
-        "cod_aglo": "0283",
-        "nom_aglo": "Carhu\u00e9",
-        "cod_agl": "060007",
-        "nom_agl": "Adolfo Alsina",
-        "lat_gd": "-37.179483",
-        "long_gd": "-62.759990",
-        "lat_gs": "-37\u00ba10'46\"",
-        "long_gs": "-62\u00ba45'36\"",
-        "fuente": "INDEC"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -62.75999038962977,
-            -37.17948326473065
+            -57.6754615550973,
+            -36.31538918412865
           ]
         ]
       }
@@ -125,5 +94,5 @@
       }
     }
   ],
-  "distance": 1110
+  "distance": 163
 }

@@ -1,0 +1,84 @@
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+
+    <title>TSP</title>
+</head>
+
+<body>
+
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-dark bg-dark justify-content-start">
+        <a class="navbar-brand p-1 text-white" href="index.html">TSP</a>
+        <a class="navbar-link p-1 text-white" href="index.html" >Home</a>
+        <a class="navbar-link p-1 text-white" href="selectCities.html" >Edit Cities</a>
+        <a class="navbar-link p-1 text-white" href="shortest.html" >Economic Path</a>
+      </nav>
+    <!-- end navbar -->
+
+    
+      
+        <div class="alert alert-info d-flex justify-content-center" role="alert">
+          <p class="pr-2">Su distancia es de:</p><p id="distance"> 0</p>
+        </div>
+
+
+    <div id="map"></div>
+
+    <div class="container-fluid d-flex justify-content-center p-3">
+        <form class="col-6 bg-dark rounded" method="post" action="#">
+            <!-- <div class="form-group">
+                <label class="text-white" for="from">From</label>
+                <select id="from" class="form-control" name="">
+                    <option>Text</option>
+                </select>
+            </div> -->
+    
+            <div class="form-group">
+                <label  class="text-white" for="to">To</label>
+                <select id="to" class="form-control" name="">
+                    <option>Text</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                
+                <button id="btnSearch" class="btn btn-warning btn-block" type="button">Search</button>
+            </div>
+        </form>
+    
+    </div>
+
+
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <div>
+
+        <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9pX2PswFshL-jkkPA6imOLMZYl8K28cY&callback=initMap&libraries=&v=weekly"
+        defer
+      ></script>
+        <script src="./shortest.js"></script>
+
+
+
+    </div>
+</body>
+
+</html>
