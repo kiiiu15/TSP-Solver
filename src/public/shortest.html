@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
 
@@ -18,20 +16,21 @@
 <body>
 
 
-   <!-- start navbar -->
- <nav class="navbar navbar-dark bg-dark justify-content-start">
-    <a class="navbar-brand p-1 text-white" href="index.html">AV</a>
-    <a class="navbar-link p-1 text-white" href="index.html" >Inicio</a>
-    <a class="navbar-link p-1 text-white" href="selectCities.html" >Elegir Ciudades</a>
-    <a class="navbar-link p-1 text-white" href="shortest.html" >Camino Economico</a>
-  </nav>
-  <!-- end navbar -->
+    <!-- start navbar -->
+    <nav class="navbar navbar-dark bg-dark justify-content-start">
+        <a class="navbar-brand p-1 text-white" href="index.html">AV</a>
+        <a class="navbar-link p-1 text-white" href="index.html">Inicio</a>
+        <a class="navbar-link p-1 text-white" href="selectCities.html">Elegir Ciudades</a>
+        <a class="navbar-link p-1 text-white" href="shortest.html">Camino Economico</a>
+    </nav>
+    <!-- end navbar -->
 
-    
-      
-        <div class="alert alert-info d-flex justify-content-center" role="alert">
-          <p class="pr-2">Su distancia es de:</p><p id="distance"> 0</p>
-        </div>
+
+
+    <div class="alert alert-info d-flex justify-content-center" role="alert">
+        <p class="pr-2">Su distancia es de:</p>
+        <p id="distance"> 0</p>
+    </div>
 
 
     <div id="map"></div>
@@ -44,23 +43,29 @@
                     <option>Text</option>
                 </select>
             </div> -->
-    
+
             <div class="form-group">
-                <label  class="text-white" for="to">To</label>
+                <label class="text-white" for="to">To</label>
                 <select id="to" class="form-control" name="">
                     <option>Text</option>
                 </select>
             </div>
-    
+
             <div class="form-group">
-                
+
                 <button id="btnSearch" class="btn btn-warning btn-block" type="button">Search</button>
             </div>
         </form>
-    
+
     </div>
 
 
+
+    <div class="bg-dark text-white d-flex justify-content-enter fixed-bottom p-3">
+
+        Agustin Bulzomi - Navarro david - Rodrigo Hector Soto - Mariano Zanier
+
+    </div>
 
 
 
@@ -71,9 +76,8 @@
         <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js"></script>
         <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9pX2PswFshL-jkkPA6imOLMZYl8K28cY&callback=initMap&libraries=&v=weekly"
-        defer
-      ></script>
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9pX2PswFshL-jkkPA6imOLMZYl8K28cY&callback=initMap&libraries=&v=weekly"
+            defer></script>
         <script src="./shortest.js"></script>
 
 
