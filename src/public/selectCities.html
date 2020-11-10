@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSP</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-dark bg-dark justify-content-start">
+        <a class="navbar-brand p-1 text-white" href="index.html">TSP</a>
+        <a class="navbar-link p-1 text-white" href="index.html">Home</a>
+        <a class="navbar-link p-1 text-white" href="selectCities.html">Edit Cities</a>
+    </nav>
+    <!-- end navbar -->
+
+
+
+
+
+
+    <div class="container mt-3">
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+            Add
+        </button>
+
+        <!-- End Button trigger modal -->
+        <!-- table show data -->
+        <table class="table">
+            <thead class="thead-dark ">
+                <tr>
+                    <th scope="col">City</th>
+                    <th scope="col">Lat</th>
+                    <th scope="col">long</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+
+            </tbody>
+        </table>
+
+        <!-- end table show data -->
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add a City</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formAdd" action="#">
+                        <select  id="cityAdd" class="form-control">
+                            <option>Default select</option>
+                        </select>
+
+                          <button id="btnAdd"class="btn btn-success btn-block mt-2" type="submit">Add</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./jquery/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./selectCities.js"></script>
+</body>
+
+</html>

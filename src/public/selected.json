@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "name": "localidad",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 754,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06014",
+        "nom_depto": "Adolfo Gonzales Chaves",
+        "cod_ase": "06014010",
+        "nombre": "Adolfo Gonzales Chaves",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0272",
+        "nom_aglo": "Adolfo Gonzales Chaves (Est. Chaves)",
+        "cod_agl": "060014",
+        "nom_agl": "Adolfo Gonzales Chaves",
+        "lat_gd": "-38.032371",
+        "long_gd": "-60.099392",
+        "lat_gs": "-38º 1'57\"",
+        "long_gs": "-60º 5'58\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -60.09939192766475,
+            -38.032370729476746
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 755,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06014",
+        "nom_depto": "Adolfo Gonzales Chaves",
+        "cod_ase": "06014020",
+        "nombre": "De La Garma",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0824",
+        "nom_aglo": "De La Garma",
+        "cod_agl": "060014",
+        "nom_agl": "Adolfo Gonzales Chaves",
+        "lat_gd": "-37.966542",
+        "long_gd": "-60.416785",
+        "lat_gs": "-37º57'60\"",
+        "long_gs": "-60º25' 0\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -60.41678548465893,
+            -37.96654172798577
+          ]
+        ]
+      }
+    }
+  ]
+}
