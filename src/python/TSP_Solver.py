@@ -109,7 +109,7 @@ def guardar(coordenadas, s):
     for i in visitados:
         nueva.append(coordenadas[i])
     resultado["features"] = nueva
-    resultado["distance"] = s
+    resultado["distance"] = round(s * 1.609)
     
 
     f.write(json.dumps(resultado, indent=2))
