@@ -4,8 +4,6 @@ class Service {
     static getByID(id) {
         const data = this.getData();
 
-        
-
         const city = data.features.find(city => city.properties.id == id);
 
         return city;
@@ -28,6 +26,8 @@ class Service {
 
 
     static setSelected(selected) {
+       
+        
         this.writeJson("src/public/selected.json", selected);
     }
 

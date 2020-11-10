@@ -18,7 +18,8 @@ class Controller{
         const city = Service.getByID(req.body.id);
         
         const selected = Service.getSelected();
-        selected.features.push(city);
+        let size = selected.features.length;
+        selected.features.splice(size-1,0,city);
 
         
         Service.setSelected(selected);
@@ -46,7 +47,8 @@ class Controller{
 
  
     static getSelected(req, res){
-        res.json(Service.getSelected());
+        const data =Service.getSelected()
+        res.json(data);
     }
 
 

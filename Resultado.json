@@ -1,0 +1,98 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1548,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06357",
+        "nom_depto": "General Pueyrred\u00f3n",
+        "cod_ase": "06357110",
+        "nombre": "Mar del Plata",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0007",
+        "nom_aglo": "Mar del Plata",
+        "cod_agl": "060357",
+        "nom_agl": "General Pueyrred\u00f3n",
+        "lat_gd": "-37.997611",
+        "long_gd": "-57.548162",
+        "lat_gs": "-37\u00ba59'51\"",
+        "long_gs": "-57\u00ba32'53\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -57.54816221511408,
+            -37.99761057539359
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2267,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06686",
+        "nom_depto": "Rojas",
+        "cod_ase": "06686060",
+        "nombre": "Rojas",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0151",
+        "nom_aglo": "Rojas",
+        "cod_agl": "060686",
+        "nom_agl": "Rojas",
+        "lat_gd": "-34.197742",
+        "long_gd": "-60.733701",
+        "lat_gs": "-34\u00ba11'52\"",
+        "long_gs": "-60\u00ba44' 1\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -60.73370069504291,
+            -34.197742429076996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1548,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06357",
+        "nom_depto": "General Pueyrred\u00f3n",
+        "cod_ase": "06357110",
+        "nombre": "Mar del Plata",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0007",
+        "nom_aglo": "Mar del Plata",
+        "cod_agl": "060357",
+        "nom_agl": "General Pueyrred\u00f3n",
+        "lat_gd": "-37.997611",
+        "long_gd": "-57.548162",
+        "lat_gs": "-37\u00ba59'51\"",
+        "long_gs": "-57\u00ba32'53\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -57.54816221511408,
+            -37.99761057539359
+          ]
+        ]
+      }
+    }
+  ],
+  "distance": 415.22210292672344
+}

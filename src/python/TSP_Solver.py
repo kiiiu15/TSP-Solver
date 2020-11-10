@@ -11,11 +11,7 @@ ruta = 'src/public/selected.json'
 visitados = []
 origen = 0
 s = 0
-resultado=[]
-
-
-
-
+resultado = {}
 
 
 def calcular_peso(lat1, lon1, lat2, lon2):
@@ -35,9 +31,11 @@ def calcular_peso(lat1, lon1, lat2, lon2):
 def cargar_localidades(ruta):  # departamental 1,provincial 2, distrital 3
     with open(ruta, 'r', encoding='utf8', errors='ignore') as contenido:
         cont = 0
-        
+
         resultado = json.load(contenido)
-        return resultado.get('features').copy()
+        a = resultado.get('features').copy()
+        a.pop()
+        return a
 
 
 def matriz(lista):
@@ -104,7 +102,7 @@ def ruta_mas_corta(G, origen, visitados, s):
 
 
 def guardar(coordenadas, s):
-    mi_path = "Resultado.json"
+    mi_path = ruta
     f = open(mi_path, 'w')
     nueva = []
 
@@ -112,11 +110,11 @@ def guardar(coordenadas, s):
         nueva.append(coordenadas[i])
     resultado["features"] = nueva
     resultado["distance"] = s
+    
 
     f.write(json.dumps(resultado, indent=2))
 
     f.close()
-
 
 
 coordenadas = cargar_localidades(ruta)
@@ -124,7 +122,7 @@ mat = matriz(coordenadas)
 t_inicial = time()
 p, d = floydwarshall(mat)
 visitados.append(origen)
-s=ruta_mas_corta(d, origen, visitados, s)
+s = ruta_mas_corta(d, origen, visitados, s)
 
 visitados.append(origen)
 t_final = time()
@@ -136,4 +134,4 @@ print("Tiempo de ejecucion: %.10f sgundos." % t_total)
 guardar(coordenadas, s)
 
 print(s)
-input()
+

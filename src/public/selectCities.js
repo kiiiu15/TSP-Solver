@@ -29,12 +29,15 @@ function treatment2(data) {
 function treatment(data) {
     tbody.innerHTML = "";
     data.features.forEach(element => {
-        tbody.appendChild(createLine(element));
+        if (element.properties.nombre != "Mar del Plata") {
+            tbody.appendChild(createLine(element));
+        }
     });
 }
 
 
 function createLine(element) {
+
     const tr = document.createElement("tr");
 
 
@@ -47,61 +50,66 @@ function createLine(element) {
     let td3 = document.createElement("td");
     td3.innerText = element.geometry.coordinates[0][1];
     tr.appendChild(td3);
+
+
+
     let button = document.createElement("button");
     button.innerText = "Delete";
-    button.classList="btn btn-danger";
+    button.classList = "btn btn-danger";
     button.value = element.properties.id;
     button.addEventListener("click", deleteCity);
     tr.appendChild(button);
 
+
+
     return tr;
 }
 
-function RefreshTable(){
+function RefreshTable() {
     fetch("http://localhost:3000/city/selected")
-    .then(res => res.json())
-    .then(treatment)
-    .catch(console.log);
+        .then(res => res.json())
+        .then(treatment)
+        .catch(console.log);
 }
 
 
 
 function addCity() {
     let idCity = select.value;
-    
+
 
     const xhr = new XMLHttpRequest();
     xhr.open("POST", "http://localhost:3000/city");
     xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.onload = function(){
+    xhr.onload = function () {
         RetrieveData();
         RefreshTable();
     }
     xhr.send(JSON.stringify({
-        id : idCity
+        id: idCity
     }));
 
-   
+
 }
 
-function deleteCity(event){
-    
+function deleteCity(event) {
+
     let idCity = event.srcElement.value;
     const xhr = new XMLHttpRequest();
     xhr.open("DELETE", "http://localhost:3000/city");
     xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.onload = function(){
+    xhr.onload = function () {
         RetrieveData();
         RefreshTable();
     }
     xhr.send(JSON.stringify({
-        id : idCity
+        id: idCity
     }));
 
 
 }
 
-window.onload = ()=> {
+window.onload = () => {
     RetrieveData();
     RefreshTable();
 }

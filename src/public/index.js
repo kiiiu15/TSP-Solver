@@ -23,8 +23,9 @@ function initMap() {
 
 
     function treatment(data){
-        console.log(data);
-        const road = [{ lat: -37.997611, lng: -57.548162 }];
+        
+        const road = [];
+
         data.features.forEach(element => {
             let city = {lat : +element.properties.lat_gd, lng: +element.properties.long_gd };
             road.push(city);
@@ -35,7 +36,7 @@ function initMap() {
             
         });
 
-        road.push({ lat: -37.997611, lng: -57.548162 });
+        
 
         console.log(road);
 
