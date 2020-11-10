@@ -7,7 +7,7 @@ class Controller{
         const data = Service.getData();
         const selected = Service.getSelected();
         selected.features.forEach(element => {
-            data.features = data.features.filter( city => city.properties.id !== element.properties.id  );
+            data.features = data.features.filter( city => city.properties.id !== element.properties.id && city.properties.nombre !== "Mar del Plata"  );
         });
         
         res.json(data);

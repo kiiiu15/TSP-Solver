@@ -42,30 +42,92 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 755,
+        "id": 2267,
         "cod_pcia": "06",
         "nom_pcia": "Buenos Aires",
-        "cod_depto": "06014",
-        "nom_depto": "Adolfo Gonzales Chaves",
-        "cod_ase": "06014020",
-        "nombre": "De La Garma",
+        "cod_depto": "06686",
+        "nom_depto": "Rojas",
+        "cod_ase": "06686060",
+        "nombre": "Rojas",
         "tipo": "Localidad simple",
-        "cod_aglo": "0824",
-        "nom_aglo": "De La Garma",
-        "cod_agl": "060014",
-        "nom_agl": "Adolfo Gonzales Chaves",
-        "lat_gd": "-37.966542",
-        "long_gd": "-60.416785",
-        "lat_gs": "-37º57'60\"",
-        "long_gs": "-60º25' 0\"",
+        "cod_aglo": "0151",
+        "nom_aglo": "Rojas",
+        "cod_agl": "060686",
+        "nom_agl": "Rojas",
+        "lat_gd": "-34.197742",
+        "long_gd": "-60.733701",
+        "lat_gs": "-34º11'52\"",
+        "long_gs": "-60º44' 1\"",
         "fuente": "INDEC"
       },
       "geometry": {
         "type": "MultiPoint",
         "coordinates": [
           [
-            -60.41678548465893,
-            -37.96654172798577
+            -60.73370069504291,
+            -34.197742429076996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 740,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06007",
+        "nom_depto": "Adolfo Alsina",
+        "cod_ase": "06007010",
+        "nombre": "Carhué",
+        "tipo": "Localidad simple",
+        "cod_aglo": "0283",
+        "nom_aglo": "Carhué",
+        "cod_agl": "060007",
+        "nom_agl": "Adolfo Alsina",
+        "lat_gd": "-37.179483",
+        "long_gd": "-62.759990",
+        "lat_gs": "-37º10'46\"",
+        "long_gs": "-62º45'36\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -62.75999038962977,
+            -37.17948326473065
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 742,
+        "cod_pcia": "06",
+        "nom_pcia": "Buenos Aires",
+        "cod_depto": "06007",
+        "nom_depto": "Adolfo Alsina",
+        "cod_ase": "06007030",
+        "nombre": "Delfín Huergo",
+        "tipo": "Localidad simple",
+        "cod_aglo": "5043",
+        "nom_aglo": "Delfín Huergo",
+        "cod_agl": "060007",
+        "nom_agl": "Adolfo Alsina",
+        "lat_gd": "-37.321108",
+        "long_gd": "-63.234385",
+        "lat_gs": "-37º19'16\"",
+        "long_gs": "-63º14' 4\"",
+        "fuente": "INDEC"
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [
+            -63.234384727382796,
+            -37.32110751966492
           ]
         ]
       }
