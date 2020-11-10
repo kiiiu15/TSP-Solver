@@ -1,5 +1,7 @@
 // Initialize and add the map
 function initMap() {
+
+    const p = document.getElementById("distance");
     // The location of Uluru
     const mdp = { lat: -37.997611, lng: -57.548162 };
     // The map, centered at Uluru
@@ -25,6 +27,8 @@ function initMap() {
     function treatment(data){
         
         const road = [];
+
+        p.innerText = data.distance;
 
         data.features.forEach(element => {
             let city = {lat : +element.properties.lat_gd, lng: +element.properties.long_gd };

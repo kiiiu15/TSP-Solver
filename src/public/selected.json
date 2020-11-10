@@ -65,37 +65,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 743,
-        "cod_pcia": "06",
-        "nom_pcia": "Buenos Aires",
-        "cod_depto": "06007",
-        "nom_depto": "Adolfo Alsina",
-        "cod_ase": "06007040",
-        "nombre": "Espartillar",
-        "tipo": "Componente de localidad compuesta",
-        "cod_aglo": "1209",
-        "nom_aglo": "Espartillar",
-        "cod_agl": "060007",
-        "nom_agl": "Adolfo Alsina",
-        "lat_gd": "-37.357411",
-        "long_gd": "-62.438380",
-        "lat_gs": "-37\u00ba21'27\"",
-        "long_gs": "-62\u00ba26'18\"",
-        "fuente": "INDEC"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -62.43837979346337,
-            -37.35741099873608
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": 740,
         "cod_pcia": "06",
         "nom_pcia": "Buenos Aires",
@@ -120,99 +89,6 @@
           [
             -62.75999038962977,
             -37.17948326473065
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 742,
-        "cod_pcia": "06",
-        "nom_pcia": "Buenos Aires",
-        "cod_depto": "06007",
-        "nom_depto": "Adolfo Alsina",
-        "cod_ase": "06007030",
-        "nombre": "Delf\u00edn Huergo",
-        "tipo": "Localidad simple",
-        "cod_aglo": "5043",
-        "nom_aglo": "Delf\u00edn Huergo",
-        "cod_agl": "060007",
-        "nom_agl": "Adolfo Alsina",
-        "lat_gd": "-37.321108",
-        "long_gd": "-63.234385",
-        "lat_gs": "-37\u00ba19'16\"",
-        "long_gs": "-63\u00ba14' 4\"",
-        "fuente": "INDEC"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -63.234384727382796,
-            -37.32110751966492
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 744,
-        "cod_pcia": "06",
-        "nom_pcia": "Buenos Aires",
-        "cod_depto": "06007",
-        "nom_depto": "Adolfo Alsina",
-        "cod_ase": "06007050",
-        "nombre": "Esteban Agust\u00edn Gasc\u00f3n",
-        "tipo": "Localidad simple",
-        "cod_aglo": "2121",
-        "nom_aglo": "Esteban Agust\u00edn Gasc\u00f3n",
-        "cod_agl": "060007",
-        "nom_agl": "Adolfo Alsina",
-        "lat_gd": "-37.455837",
-        "long_gd": "-63.254312",
-        "lat_gs": "-37\u00ba27'21\"",
-        "long_gs": "-63\u00ba15'16\"",
-        "fuente": "INDEC"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -63.254311550389026,
-            -37.45583651118458
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 745,
-        "cod_pcia": "06",
-        "nom_pcia": "Buenos Aires",
-        "cod_depto": "06007",
-        "nom_depto": "Adolfo Alsina",
-        "cod_ase": "06007060",
-        "nombre": "La Pala",
-        "tipo": "Localidad simple",
-        "cod_aglo": "5013",
-        "nom_aglo": "La Pala",
-        "cod_agl": "060007",
-        "nom_agl": "Adolfo Alsina",
-        "lat_gd": "-36.663920",
-        "long_gd": "-63.366466",
-        "lat_gs": "-36\u00ba39'50\"",
-        "long_gs": "-63\u00ba21'59\"",
-        "fuente": "INDEC"
-      },
-      "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [
-            -63.366465603828374,
-            -36.66392035666456
           ]
         ]
       }
@@ -249,5 +125,5 @@
       }
     }
   ],
-  "distance": 806.7236300807488
+  "distance": 689.8261908632426
 }

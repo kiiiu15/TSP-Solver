@@ -7,7 +7,7 @@ const child_process = require("child_process");
 
 app.use( express.static(path.join(__dirname, "public")));
 app.use("/city/selected", function(req, res, next){
-   child_process.exec("python src/python/TSP_Solver.py" ,console.log);
+   child_process.exec("python src/python/TSP_Solver.py" , err => { if (err) {console.log(err)}});
    next()
     
 });
